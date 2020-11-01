@@ -6,6 +6,8 @@
 
 * [Algorithms](computer-science-1/algorithms/README.md)
   * [Bubble Sort](computer-science-1/algorithms/bubble-sort.md)
+* [Data Structures](computer-science-1/data-structures/README.md)
+  * [Linked List](computer-science-1/data-structures/linked-list.md)
 
 ## HTML
 
