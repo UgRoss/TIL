@@ -21,3 +21,7 @@
 * [null vs undefined](javascript/null-vs-undefined.md)
 * [URLSearchParams](javascript/urlsearchparams.md)
 
+## Developer Tools
+
+* [You can copy\(\) from the console](developer-tools/you-can-copy-from-the-console.md)
+
