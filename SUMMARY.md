@@ -36,5 +36,9 @@
 
 ## CSS
 
-* [Maps & @each directive](css/maps-and-each-directive.md)
+---
+
+* [SASS](sass/README.md)
+  * [Maps & @each directive](sass/maps-and-each-directive.md)
+* [How to access Maps](how-to-access-maps.md)
 
