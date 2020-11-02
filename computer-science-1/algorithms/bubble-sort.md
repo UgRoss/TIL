@@ -1,12 +1,20 @@
+---
+description: >-
+  ℹ️Sorting algorithm that compares every adjacent pair of values and swaps
+  their position if the first value is greater than another. Complexity O(n²)
+---
+
 # Bubble Sort
+
+### Description
 
 Bubble sort algorithm runs in O\(n²\) time, making it an inefficient algorithm for a larger list.
 
 The idea behind the bubble sort is that every adjacent pair of values is repeatedly compared, and then these values swap their positions if the first value is greater than the second value. This way during each pass through the array, the largest value “bubbles up” to the top.
 
-## Example
+### Example
 
-Let's imagine we need to sort the following array using bubble sorting: `[7, 1, 4, 3, 8]`. Here is the list of the steps that bubble sorting will do to sort this array:
+Let's imagine that we need to sort the following array using bubble sorting: `[7, 1, 4, 3, 8]`. Here is the list of the steps that bubble sorting will do to sort this array:
 
 1. \[**7**, **1**, 4, 3, 8\] -&gt; \[**1**, **7**, 4, 3, 8\]
 2. \[1, **7**, **4**, 3, 8\] -&gt; \[1, **4**, **7**, 3, 8\]
@@ -29,7 +37,7 @@ Third pass:
 3. \[1, 3, **4**, **7**, 8\] -&gt; \[1, 3, **4**, **7**, 8\]
 4. \[1, 3, 4, **7**, **8**\] -&gt; \[1, 3, 4, **7**, **8**\]
 
-## Code implementation
+### Code implementation
 
 Here is one of the possible ways to implement bubble sorting:
 
@@ -77,10 +85,10 @@ function bubbleSort(inputArr) {
 }
 ```
 
-This time if our inputArr is already sorted complexity will be O\(n\).
+This time if our `inputArr` is already sorted complexity will be O\(n\).
 
-**Information:**
+### **Complexity**
 
-1. Worst and Avg. Time Complexity: O\(n²\)
-2. Best Case Time Complexity: O\(n\). Happens only when array is already sorted.
+1. **Worst and Avg. Time Complexity:** _**O\(n²\)**_
+2. **Best Case Time Complexity:** _**O\(n\)**_. Happens only when an array is already sorted.
 

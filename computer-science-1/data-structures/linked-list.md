@@ -4,8 +4,11 @@
 
 **Please check my blog post on** [**ugross.dev**](https://ugross.dev/blog/data-structures-linked-list)
 
-### Singly Linked List Code
+### Code
 
+{% tabs %}
+{% tab title="Singly Linked List" %}
+{% code title="SinglyLinkedList.js" %}
 ```javascript
 class Node {
   /**
@@ -157,9 +160,11 @@ export default class LinkedList {
   }
 }
 ```
+{% endcode %}
+{% endtab %}
 
-### Doubly Linked List Code
-
+{% tab title="Doubly Linked List" %}
+{% code title="DoublyLinkedList.js" %}
 ```javascript
 class Node {
   /**
@@ -330,4 +335,9 @@ export default class DoublyLinkedList {
   }
 }
 ```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+
 
