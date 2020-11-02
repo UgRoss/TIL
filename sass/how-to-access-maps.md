@@ -1,8 +1,14 @@
+---
+description: 'ℹ️ use "map-get($map, $key)'' to get value from map.'
+---
+
 # How to access Maps
 
-The most common case of sass maps usage is just accessing them. It can be done with the help of `map-get($map, $key)` function.
+### Description
 
-Example:
+The most common usage case of sass maps is just accessing them. It can be done with the help of `map-get($map, $key)` function.
+
+### Example:
 
 ```css
 $breakpoints: (

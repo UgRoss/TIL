@@ -1,3 +1,7 @@
+---
+description: ℹ️ <base> tag is used to specify a base URI/URL for relative links.
+---
+
 # &lt;base&gt;
 
 ### Description

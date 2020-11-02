@@ -1,5 +1,5 @@
 ---
-description: ℹ️ Use copy() to copy value to the clipboard
+description: ℹ️ Use copy(VALUE) to copy value to the clipboard
 ---
 
 # You can copy\(\) from the console
