@@ -9,17 +9,21 @@
 * [Data Structures](computer-science-1/data-structures/README.md)
   * [Linked List](computer-science-1/data-structures/linked-list.md)
 
-## HTML
+## TypeScript
 
-* [&lt;progress&gt;](html/less-than-progress-greater-than.md)
-* [&lt;bdo&gt;](html/less-than-bdo-greater-than.md)
-* [&lt;base&gt;](html/less-than-base-greater-than.md)
+* [Enums](typescript/enums.md)
 
 ## JavaScript
 
 * [Math.sign\(\)](javascript/math.sign.md)
 * [null vs undefined](javascript/null-vs-undefined.md)
 * [URLSearchParams](javascript/urlsearchparams.md)
+
+## HTML
+
+* [&lt;progress&gt;](html/less-than-progress-greater-than.md)
+* [&lt;bdo&gt;](html/less-than-bdo-greater-than.md)
+* [&lt;base&gt;](html/less-than-base-greater-than.md)
 
 ## Developer Tools
 
