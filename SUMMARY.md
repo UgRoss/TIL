@@ -40,5 +40,5 @@
 
 * [SASS](sass/README.md)
   * [Maps & @each directive](sass/maps-and-each-directive.md)
-* [How to access Maps](how-to-access-maps.md)
+  * [How to access Maps](sass/how-to-access-maps.md)
 
