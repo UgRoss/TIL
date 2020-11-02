@@ -1,9 +1,15 @@
+---
+description: >-
+  ℹ️ Used as a collection of related values. Use enums when a method or variable
+  can only take one out of a small set of possible values.
+---
+
 # Enums
 
 An enum is a way to organize a collection of related values.
 
 ```typescript
-enum Season {
+enum Seasons {
   Summer,
   Autumn,
   Winter,
@@ -14,7 +20,7 @@ enum Season {
 These enums values are number-based:
 
 ```typescript
-const summer = Season.Summer;
+const summer = Seasons.Summer;
 console.log(summer);
 // -> 0
 ```
@@ -36,14 +42,14 @@ var Seasons;
 Let's take the line `Seasons[Seasons["Summer"] = 0] = "Summer";`. To understand this line we just need to analyze `Seasons["Summer"] = 0`, here we can see that it assigns value `0` to the `Seasons.Summer`, then we know that assignment operator returns the assigned value, so further execution is `Seasons[0] = "Summer"`.
 
 ```javascript
-console.log(Season.Summer); // 0
-console.log(Season[0]); // "Summer"
+console.log(Seasons.Summer); // 0
+console.log(Seasons[0]); // "Summer"
 ```
 
 **Enums have autoincrementing behavior:**
 
 ```typescript
-enum Season {
+enum Seasons {
   Summer = 1,
   Autumn,
   Winter,
@@ -56,7 +62,7 @@ When `Up` is initilized with `1`, others have auto-incremented value from that p
 **String Enums**
 
 ```typescript
-enum Season {
+enum Seasons {
   Summer = 'SUMMER',
   Autumn = 'AUTUMN',
   Winter = 'WINTER',
@@ -87,5 +93,5 @@ console.log(Season[0]); // -> undefined
 
 ### Read More
 
-* [TypeScript handbook](https://www.typescriptlang.org/docs/handbook/enums.html)
+* [TypeScript handbook - Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
 

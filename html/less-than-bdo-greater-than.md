@@ -1,3 +1,7 @@
+---
+description: ℹ️ <bdo> tag is used to change the direction of a text (RTL/LTR).
+---
+
 # &lt;bdo&gt;
 
 ### Description

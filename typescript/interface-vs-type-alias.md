@@ -1,3 +1,9 @@
+---
+description: >-
+  ℹ️They are similar in many ways. The key differences are: type can be used for
+  primitives and type can be used for union of other types/interfaces.
+---
+
 # Interface vs Type alias
 
 Mostly, type alias is used to represent a more complex type like the union of a few different types:
@@ -8,6 +14,7 @@ type Figure = IRectangle | ICircle;
 
 Interfaces are used to represent the shape of an object \(for example, to create classes or to use in function parameters\):
 
+{% code title="Person.js" %}
 ```typescript
 interface IPerson {
   name: string;
@@ -24,6 +31,7 @@ class Person implements IPerson {
   }
 }
 ```
+{% endcode %}
 
 Type aliases and interfaces are similar in many ways, except syntax. Nevertheless, they have differences that you need to know.
 
@@ -75,7 +83,7 @@ type IMerged = IFirst & ISecond;
 interface IMerged extends IFirst, ISecond {}
 ```
 
-### Difference
+### Differences
 
 #### Primitive types
 

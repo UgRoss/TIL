@@ -1,3 +1,7 @@
+---
+description: ℹ️ <progress> tag is used to represent the progress of something.
+---
+
 # &lt;progress&gt;
 
 ### Description

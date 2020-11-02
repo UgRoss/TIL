@@ -1,5 +1,5 @@
 ---
-description: ℹ️ Use to easily work with query string of a URL
+description: ℹ️ Use to easily work with a query string of URL.
 ---
 
 # URLSearchParams
@@ -8,12 +8,12 @@ description: ℹ️ Use to easily work with query string of a URL
 
 `URLSearchParams` defines utility method to work with the query string of a URL.
 
-### Usage Example
+### Example
 
-Let's imagine we have an iframe that we configure with help of the query string in URL. URL will be the following:
+Let's imagine we have an iframe that we configure with help of the query string inside this URL:
 
 ```text
-https://iframe.link/?id=123&language=english&color=#2364AA
+https://iframe.link/?id=123&locale=en_US&color=#2364AA
 ```
 
 Now we need to get our configuration and we can do the following:
@@ -22,10 +22,10 @@ Now we need to get our configuration and we can do the following:
 const searchParams = new URLSearchParams(window.location.search);
 
 const config = {
-  id: searchParams.get('id'), // 123
-  langauge: searchParams.get('language'), // english
+  id: searchParams.get('id'), //-> 123
+  langauge: searchParams.get('locale'), //-> en_US
   /* We also don't need to use decoding to get value with symbols 🔽 */
-  color: searchParams.get('color'), // #2364AA
+  color: searchParams.get('color'), //-> #2364AA
 };
 
 // ✨ `URLSearchParams` interface allows to do more things:
