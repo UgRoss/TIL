@@ -20,6 +20,10 @@
 * [null vs undefined](javascript/null-vs-undefined.md)
 * [URLSearchParams](javascript/urlsearchparams.md)
 
+## Git
+
+* [Quick switch to the previous branch](git/quick-switch-to-the-previous-branch.md)
+
 ## HTML
 
 * [&lt;progress&gt;](html/less-than-progress-greater-than.md)
