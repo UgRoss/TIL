@@ -12,6 +12,7 @@
 ## TypeScript
 
 * [Enums](typescript/enums.md)
+* [Interface vs Type alias](typescript/interface-vs-type-alias.md)
 
 ## JavaScript
 
