@@ -7,7 +7,16 @@
 * [Algorithms](computer-science-1/algorithms/README.md)
   * [Bubble Sort](computer-science-1/algorithms/bubble-sort.md)
 * [Data Structures](computer-science-1/data-structures/README.md)
+  * [Stack](computer-science-1/data-structures/stack.md)
   * [Linked List](computer-science-1/data-structures/linked-list.md)
+* [Design Patterns](computer-science-1/design-patterns/README.md)
+  * [Creational Design Patterns](computer-science-1/design-patterns/creational-design-patterns/README.md)
+    * [WIP: Factory Method](computer-science-1/design-patterns/creational-design-patterns/wip-factory-method.md)
+
+## Software Engineering
+
+* [Requirements engineering](software-engineering/requirements-engineering/README.md)
+  * [Functional Requirements vs Non-functional requirements](software-engineering/requirements-engineering/functional-requirements-vs-non-functional-requirements.md)
 
 ## TypeScript
 

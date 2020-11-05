@@ -1,10 +1,10 @@
 # Linked List
 
-### Description
+## Description
 
 **Please check my blog post on** [**ugross.dev**](https://ugross.dev/blog/data-structures-linked-list)
 
-### Code
+## Code
 
 {% tabs %}
 {% tab title="Singly Linked List" %}

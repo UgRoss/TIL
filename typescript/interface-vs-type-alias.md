@@ -1,7 +1,7 @@
 ---
 description: >-
-  ℹ️They are similar in many ways. The key differences are: type can be used for
-  primitives and type can be used for union of other types/interfaces.
+  ℹ️ They are similar in many ways. The key differences are: type can be used
+  for primitives and type can be used for union of other types/interfaces.
 ---
 
 # Interface vs Type alias
