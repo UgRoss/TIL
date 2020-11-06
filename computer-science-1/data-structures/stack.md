@@ -1,8 +1,8 @@
 ---
 description: >-
-  A Stack is a linear data structure that keeps data in a stack manner. It uses
-  LIFO (last-in-first-out) ordering in which the last pushed item to the stack
-  is processed first.
+  A Stack is a linear data structure that keeps its elements stacked on each
+  other. It uses LIFO (last-in-first-out) ordering in which the last pushed item
+  to the stack is processed first.
 ---
 
 # Stack
@@ -11,7 +11,7 @@ description: >-
 
 ![Stack Data Structure](../../.gitbook/assets/89aa8043-6edc-4bcb-9646-92039f14b0f9_1_105_c.jpeg)
 
-A Stack is a linear data structure that keeps its data in a stack manner. It's like an array, but with a few restrictions:
+A Stack is a linear data structure where elements are stacked on each other. It's like an array, but with a few restrictions:
 
 * You can't access items randomly by using their index.
 * You can only add an item to the end, and remove or retrieve the last item.
@@ -32,6 +32,7 @@ A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last
 
 * Checking an opening/closing structure. For example, a task to detect balanced usage of opening and closing parentheses, brackets, and quotes. `[]()""([])`
 * Undoing \(backtracking from\) an action.
+* Reversing data.
 * and more...
 
 ### Time Complexity
@@ -40,8 +41,9 @@ A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last
 | :--- | :--- |
 | Insertion | O\(1\) |
 | Deletion | O\(1\) |
-| Search | O\(n\) |
-| Access | O\(n\) |
+| \*Access | O\(n\) |
+
+_\*To access some value you need first to pop element from the top._
 
 ## Code
 
