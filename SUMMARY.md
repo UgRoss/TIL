@@ -49,7 +49,3 @@
   * [Maps & @each directive](css/sass/maps-and-each-directive.md)
   * [How to access Maps](css/sass/how-to-access-maps.md)
 
----
-
-* [test](test.md)
-
