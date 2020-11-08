@@ -44,12 +44,12 @@ In case non-Functional requirements are not met the basic functionality will not
 
 ### Typical non-Functional requirements
 
-Non-Functional requirements are also [quality attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes), so they may include:
+Non-Functional Requirements are also [quality attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes), so they may include:
 
 * _Usability_ - addresses the simple question "_How hard is it to use the product?"._
 * _Securability_ - assures that all data inside the system or its part will be protected against attacks or unauthorized access.
-* _Reliability_ - specifies how likely a system or its part would run without failures for defined period of time. 
-* _Availability_ - describes how likely the system is accessible to user at a point of time. For example, system may be available 98% of time during a month.
+* _Reliability_ - specifies how likely a system or its part would run without failures for a defined period of time. 
+* _Availability_ - describes how likely the system is accessible to a user at a point in time. For example, the system may be available 98% of the time during a month.
 * _Performance_ - defines how fast the system or its part responds to certain user actions under certain conditions/workload.
 
 ### Examples
@@ -60,7 +60,7 @@ Non-Functional requirements are also [quality attributes](https://en.wikipedia.o
 
 ## Summary
 
-ℹ️ Software or System requirements are classified as _**functional and non-functional requirements**_. Functional requirements define/specify what system should do and they are mandatory. Non-functional requirements are system quality attributes, they describe how system should behave and establish constraints of its functionality.
+ℹ️ Software or System requirements are classified as _**functional and non-functional requirements**_. Functional requirements define/specify what the system should do and they are mandatory. Non-functional requirements are system quality attributes, they describe how the system should behave and establish constraints of its functionality.
 
 
 

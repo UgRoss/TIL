@@ -43,7 +43,7 @@ A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last
 | Deletion | O\(1\) |
 | \*Access | O\(n\) |
 
-_\*To access some value you need first to pop element from the top._
+_\*To access some value you need first to pop an element from the top._
 
 ## Code
 
