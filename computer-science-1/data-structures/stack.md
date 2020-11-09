@@ -14,7 +14,7 @@ description: >-
 A Stack is a linear data structure where elements are stacked on each other. It's like an array, but with a few restrictions:
 
 * You can't access items randomly by using their index.
-* You can only add an item to the end, and remove or retrieve the last item.
+* You can only add an item to the end, and remove or retrieve the lastest item.
 
 This simplest way to think about stack structure is to imaging a deck of cards or a stack of plates. You put a plate on top of another, and to access a plate in the middle you first need to get plates from the top.
 
