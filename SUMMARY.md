@@ -49,3 +49,7 @@
   * [Maps & @each directive](css/sass/maps-and-each-directive.md)
   * [How to access Maps](css/sass/how-to-access-maps.md)
 
+## Personal Development
+
+* [Fixed vs Growth Mindset](personal-development/fixed-vs-growth-mindset.md)
+
