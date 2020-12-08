@@ -7,6 +7,7 @@
 * [Algorithms](computer-science-1/algorithms/README.md)
   * [Bubble Sort](computer-science-1/algorithms/bubble-sort.md)
 * [Data Structures](computer-science-1/data-structures/README.md)
+  * [Queue](computer-science-1/data-structures/queue.md)
   * [Stack](computer-science-1/data-structures/stack.md)
   * [Linked List](computer-science-1/data-structures/linked-list.md)
 * [Design Patterns](computer-science-1/design-patterns/README.md)
