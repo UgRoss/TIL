@@ -88,7 +88,7 @@ export class Queue<T> {
 
 #### Links:
 
-* * [Linked List record](linked-list.md).
+* [Linked List record](linked-list.md).
 * Code on [Github](https://github.com/UgRoss/data-structures-typescript/tree/main/src/data-structures/Queue).
 * Solve problems using Stack on [LeetCode](https://leetcode.com/tag/queue/).
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/).
