@@ -15,12 +15,12 @@ We often use queues in our everyday life. For example, queue at the supermarket,
 
 ![](../../.gitbook/assets/img_0111.jpeg)
 
-Queue is like an array but with a few restrictions:
+This ordering mechanism is also called **FIFO** \(_first-in-first-out_\) in which the first added element is processed first and the newest added element is processed last.
+
+A Queue is like an array but with a few restrictions:
 
 * You can't randomly access an item by its index.
 * You can only add data in one end and retrieve data from the other.
-
-This ordering mechanism is also called **FIFO** \(_first-in-first-out_\) in which the first already existing element is processed first and the newest added item is processed last.
 
 ### Base operations
 
@@ -32,7 +32,7 @@ This ordering mechanism is also called **FIFO** \(_first-in-first-out_\) in whic
 
 ### When to use
 
-It can be used for any task where the first data/job that arrives needs to be processed first \(FIFO method\). For example, it's possible to use a queue to upload images one by one in order they arrived.
+It can be used for any task where the first data/job that arrives needs to be processed first \(FIFO\). For example, it's possible to use a queue to upload images one by one in the order they arrived.
 
 ### Complexity
 
