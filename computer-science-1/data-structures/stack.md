@@ -24,9 +24,9 @@ A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last
 
 | Method | Description |
 | :--- | :--- |
-| **push\(\)** | Add item to a stack. |
-| **pop\(\)** | Remove item from a stack. |
-| **peek\(\)** | Get the latest item in a stack. |
+| _`push()`_ | Add item to a stack. |
+| _`pop()`_ | Remove item from a stack. |
+| _`peek()`_ | Get the latest item in a stack. |
 
 ### When to use
 
@@ -46,8 +46,6 @@ A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last
 _\*To access some value you need first to pop an element from the top._
 
 ## Code
-
-{% page-ref page="linked-list.md" %}
 
 {% code title="Stack.ts" %}
 ```typescript
@@ -85,6 +83,7 @@ export class Stack<T> {
 
 #### Links:
 
+* [Linked List record](linked-list.md).
 * Code on [Github](https://github.com/UgRoss/data-structures-typescript/tree/main/src/data-structures/Stack).
 * Solve problems using Stack on [LeetCode](https://leetcode.com/tag/stack/).
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)

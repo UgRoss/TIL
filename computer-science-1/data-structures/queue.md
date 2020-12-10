@@ -9,7 +9,7 @@ description: >-
 
 ## Description
 
-A Queue is a linear data structure that keeps its elements in a queue. It means that one end of a queue is used to add data into it and another end is used to remove data from it. 
+A Queue is a linear data structure that keeps its elements in a queue. It means that one end of a queue is used to add data into it and another end is used to remove data from it.
 
 We often use queues in our everyday life. For example, queue at the supermarket, queue at the airport, and so on...
 
@@ -26,21 +26,21 @@ A Queue is like an array but with a few restrictions:
 
 | Operation | Description |
 | :--- | :--- |
-| enqueue\(item\) | add an item to the end of a queue |
-| dequeue\(\) | remove the first item in a queue |
-| peek\(\) | get an element that is in the front of a queue |
+| _`enqueue(item)`_ | add an item to the end of a queue |
+| _`dequeue()`_ | remove the first item in a queue |
+| _`peek()`_ | get an element that is in the front of a queue |
 
 ### When to use
 
 It can be used for any task where the first data/job that arrives needs to be processed first \(FIFO\). For example, it's possible to use a queue to upload images one by one in the order they arrived.
 
-### Complexity
+### Time Complexity
 
 | Operation | Complexity |
 | :--- | :--- |
 | Insertion | _O\(1\)_ |
 | Deletion | _O\(1\)_ |
-| _\*_Access | _O\(n\)_ |
+| \*Access | _O\(n\)_ |
 
 _\*To access some value you need to remove elements that are first in a queue._
 
@@ -88,7 +88,8 @@ export class Queue<T> {
 
 #### Links:
 
+* [Linked List record](linked-list.md).
 * Code on [Github](https://github.com/UgRoss/data-structures-typescript/tree/main/src/data-structures/Queue).
 * Solve problems using Stack on [LeetCode](https://leetcode.com/tag/queue/).
-* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/).
 
