@@ -2,7 +2,7 @@
 description: >-
   A Queue is a linear data structure that keeps its elements in a queue. It uses
   FIFO (first-in-first-out) ordering in which elements are added to the "end"
-  and are removed from the "start".
+  and are removed from the "front".
 ---
 
 # Queue
