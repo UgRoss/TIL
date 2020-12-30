@@ -38,12 +38,6 @@
 
 * [You can copy\(\) from the console](developer-tools/you-can-copy-from-the-console.md)
 
-## CSS
-
-* [SASS](css/sass/README.md)
-  * [Maps & @each directive](css/sass/maps-and-each-directive.md)
-  * [How to access Maps](css/sass/how-to-access-maps.md)
-
 ## Personal Development
 
 * [Fixed vs Growth Mindset](personal-development/fixed-vs-growth-mindset.md)
@@ -54,4 +48,7 @@
   * [&lt;progress&gt;](til/html/less-than-progress-greater-than.md)
   * [&lt;bdo&gt;](til/html/less-than-bdo-greater-than.md)
   * [&lt;base&gt;](til/html/less-than-base-greater-than.md)
+* [SASS](til/sass/README.md)
+  * [Maps & @each directive](til/sass/maps-and-each-directive.md)
+  * [How to access Maps](til/sass/how-to-access-maps.md)
 
