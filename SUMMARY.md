@@ -34,12 +34,6 @@
 
 * [Quick switch to the previous branch](git/quick-switch-to-the-previous-branch.md)
 
-## HTML
-
-* [&lt;progress&gt;](html/less-than-progress-greater-than.md)
-* [&lt;bdo&gt;](html/less-than-bdo-greater-than.md)
-* [&lt;base&gt;](html/less-than-base-greater-than.md)
-
 ## Developer Tools
 
 * [You can copy\(\) from the console](developer-tools/you-can-copy-from-the-console.md)
@@ -53,4 +47,11 @@
 ## Personal Development
 
 * [Fixed vs Growth Mindset](personal-development/fixed-vs-growth-mindset.md)
+
+## TIL
+
+* [HTML](til/html/README.md)
+  * [&lt;progress&gt;](til/html/less-than-progress-greater-than.md)
+  * [&lt;bdo&gt;](til/html/less-than-bdo-greater-than.md)
+  * [&lt;base&gt;](til/html/less-than-base-greater-than.md)
 

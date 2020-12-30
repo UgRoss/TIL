@@ -19,5 +19,5 @@ Attributes:
 <progress value="20" max="100"></progress>
 ```
 
-![](../.gitbook/assets/progress-tag-demo.gif)
+![](../../.gitbook/assets/progress-tag-demo.gif)
 
