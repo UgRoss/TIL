@@ -37,7 +37,7 @@
 
 * [Fixed vs Growth Mindset](personal-development/fixed-vs-growth-mindset.md)
 
-## TIL
+## TIL - Today I Learned <a id="til"></a>
 
 * [TypeScript](til/typescript-1/README.md)
   * [Interface vs Type alias](til/typescript-1/interface-vs-type-alias.md)
