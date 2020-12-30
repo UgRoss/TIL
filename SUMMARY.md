@@ -25,10 +25,6 @@
 * [null vs undefined](javascript/null-vs-undefined.md)
 * [URLSearchParams](javascript/urlsearchparams.md)
 
-## Git
-
-* [Quick switch to the previous branch](git/quick-switch-to-the-previous-branch.md)
-
 ## Developer Tools
 
 * [You can copy\(\) from the console](developer-tools/you-can-copy-from-the-console.md)
@@ -49,4 +45,6 @@
 * [SASS](til/sass/README.md)
   * [Maps & @each directive](til/sass/maps-and-each-directive.md)
   * [How to access Maps](til/sass/how-to-access-maps.md)
+* [Git](til/git-1/README.md)
+  * [Quick switch to the previous branch](til/git-1/quick-switch-to-the-previous-branch.md)
 
