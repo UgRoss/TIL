@@ -1,6 +1,6 @@
 ---
 description: >-
-  ℹ️Sorting algorithm that compares every adjacent pair of values and swaps
+  ℹ️ Sorting algorithm that compares every adjacent pair of values and swaps
   their position if the first value is greater than another. Complexity O(n²)
 ---
 
