@@ -19,11 +19,6 @@
 * [Requirements engineering](software-engineering/requirements-engineering/README.md)
   * [Functional Requirements vs Non-functional requirements](software-engineering/requirements-engineering/functional-requirements-vs-non-functional-requirements.md)
 
-## TypeScript
-
-* [Interface vs Type alias](typescript/interface-vs-type-alias.md)
-* [Enums](typescript/enums.md)
-
 ## JavaScript
 
 * [Math.sign\(\)](javascript/math.sign.md)
@@ -44,6 +39,9 @@
 
 ## TIL
 
+* [TypeScript](til/typescript-1/README.md)
+  * [Interface vs Type alias](til/typescript-1/interface-vs-type-alias.md)
+  * [Enums](til/typescript-1/enums.md)
 * [HTML](til/html/README.md)
   * [&lt;progress&gt;](til/html/less-than-progress-greater-than.md)
   * [&lt;bdo&gt;](til/html/less-than-bdo-greater-than.md)
