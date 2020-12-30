@@ -19,16 +19,6 @@
 * [Requirements engineering](software-engineering/requirements-engineering/README.md)
   * [Functional Requirements vs Non-functional requirements](software-engineering/requirements-engineering/functional-requirements-vs-non-functional-requirements.md)
 
-## JavaScript
-
-* [Math.sign\(\)](javascript/math.sign.md)
-* [null vs undefined](javascript/null-vs-undefined.md)
-* [URLSearchParams](javascript/urlsearchparams.md)
-
-## Developer Tools
-
-* [You can copy\(\) from the console](developer-tools/you-can-copy-from-the-console.md)
-
 ## Personal Development
 
 * [Fixed vs Growth Mindset](personal-development/fixed-vs-growth-mindset.md)
@@ -38,6 +28,10 @@
 * [TypeScript](til/typescript-1/README.md)
   * [Interface vs Type alias](til/typescript-1/interface-vs-type-alias.md)
   * [Enums](til/typescript-1/enums.md)
+* [JavaScript](til/javascript-1/README.md)
+  * [Math.sign\(\)](til/javascript-1/math.sign.md)
+  * [URLSearchParams](til/javascript-1/urlsearchparams.md)
+  * [null vs undefined](til/javascript-1/null-vs-undefined.md)
 * [HTML](til/html/README.md)
   * [&lt;progress&gt;](til/html/less-than-progress-greater-than.md)
   * [&lt;bdo&gt;](til/html/less-than-bdo-greater-than.md)
@@ -47,4 +41,6 @@
   * [How to access Maps](til/sass/how-to-access-maps.md)
 * [Git](til/git-1/README.md)
   * [Quick switch to the previous branch](til/git-1/quick-switch-to-the-previous-branch.md)
+* [Developer Tools](til/developer-tools/README.md)
+  * [You can copy\(\) from the console](til/developer-tools/you-can-copy-from-the-console.md)
 
