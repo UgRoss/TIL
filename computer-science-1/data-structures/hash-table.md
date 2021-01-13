@@ -2,7 +2,7 @@
 description: WIP
 ---
 
-# Hash Table
+# \[WIP\] Hash Table
 
 ##  🚧 WORK IN PROGRESS
 
