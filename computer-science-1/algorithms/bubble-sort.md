@@ -8,7 +8,7 @@ description: >-
 
 ### Description
 
-Bubble sort algorithm runs in O\(n²\) time, making it an inefficient algorithm for a larger list.
+The bubble sort algorithm runs in O\(n²\) time, making it an inefficient algorithm for a larger list.
 
 The idea behind the bubble sort is that every adjacent pair of values is repeatedly compared, and then these values swap their positions if the first value is greater than the second value. This way during each pass through the array, the largest value “bubbles up” to the top.
 
