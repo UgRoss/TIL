@@ -1,5 +1,8 @@
 ---
-description: The 'unknown' type in TypeScript is the type-safe counterpart of 'any'.
+description: >-
+  ℹ️ The 'unknown' type in TypeScript is the type-safe counterpart of 'any'.
+  Unknown is assignable only to itself and any type. Unknown doesn't allow any
+  operations without first asserting or narrowing.
 ---
 
 # The unknown type
