@@ -30,6 +30,7 @@
 ## TIL - Today I Learned <a id="til"></a>
 
 * [TypeScript](til/typescript-1/README.md)
+  * [The unknown type](til/typescript-1/the-unknown-type.md)
   * [Interface vs Type alias](til/typescript-1/interface-vs-type-alias.md)
   * [Enums](til/typescript-1/enums.md)
 * [JavaScript](til/javascript-1/README.md)
