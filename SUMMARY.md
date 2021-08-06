@@ -18,8 +18,6 @@
 
 ## Software Engineering
 
-* [SOLID](software-engineering/solid/README.md)
-  * [Single Responsibility Principle](software-engineering/solid/single-responsibility-principle.md)
 * [Requirements engineering](software-engineering/requirements-engineering/README.md)
   * [Functional Requirements vs Non-functional requirements](software-engineering/requirements-engineering/functional-requirements-vs-non-functional-requirements.md)
 
