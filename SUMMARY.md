@@ -45,6 +45,7 @@
 * [Git](til/git-1/README.md)
   * [Quick switch to the previous branch](til/git-1/quick-switch-to-the-previous-branch.md)
 * [Developer Tools](til/developer-tools/README.md)
+  * [Conditional breakpoints in Chrome](til/developer-tools/conditional-breakpoints-in-chrome.md)
   * [You can copy\(\) from the console](til/developer-tools/you-can-copy-from-the-console.md)
 
 ---
