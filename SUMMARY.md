@@ -15,6 +15,8 @@
 * [Design Patterns](computer-science-1/design-patterns/README.md)
   * [Creational Design Patterns](computer-science-1/design-patterns/creational-design-patterns/README.md)
     * [WIP: Factory Method](computer-science-1/design-patterns/creational-design-patterns/wip-factory-method.md)
+* [Other](computer-science-1/other/README.md)
+  * [Signed vs Unsigned Numbers](computer-science-1/other/signed-vs-unsigned-numbers.md)
 
 ## Software Engineering
 
