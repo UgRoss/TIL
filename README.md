@@ -1,5 +1,5 @@
 ---
-description: "\U0001F4DD Today I Learned"
+description: 📝 Today I Learned
 ---
 
 # Introduction
@@ -8,13 +8,44 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 ### Computer Science
 
-{% page-ref page="computer-science-1/algorithms/" %}
+{% content-ref url="computer-science-1/algorithms/" %}
+[algorithms](computer-science-1/algorithms/)
+{% endcontent-ref %}
 
-{% page-ref page="computer-science-1/data-structures/" %}
+{% content-ref url="computer-science-1/data-structures/" %}
+[data-structures](computer-science-1/data-structures/)
+{% endcontent-ref %}
 
 ### Software Engineering
 
-{% page-ref page="software-engineering/requirements-engineering/" %}
+{% content-ref url="software-engineering/requirements-engineering/" %}
+[requirements-engineering](software-engineering/requirements-engineering/)
+{% endcontent-ref %}
 
-### 
+### Personal Development
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+###  Languages / Libraries / Technologies
+
+{% content-ref url="til/typescript-1/" %}
+[typescript-1](til/typescript-1/)
+{% endcontent-ref %}
+
+{% content-ref url="til/javascript-1/" %}
+[javascript-1](til/javascript-1/)
+{% endcontent-ref %}
+
+{% content-ref url="til/html/" %}
+[html](til/html/)
+{% endcontent-ref %}
+
+{% content-ref url="til/sass/" %}
+[sass](til/sass/)
+{% endcontent-ref %}
+
+{% content-ref url="til/git-1/" %}
+[git-1](til/git-1/)
+{% endcontent-ref %}
