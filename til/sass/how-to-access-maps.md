@@ -1,30 +1,30 @@
 ---
-description: 'ℹ️ use "map-get($map, $key)'' to get value from map.'
+description: ℹ️ use "map-get($map, $key)' to get value from map.
 ---
 
 # How to access Maps
 
 ### Description
 
-The most common usage case of sass maps is just accessing them. It can be done with the help of `map-get($map, $key)` function.
+To access a values from SASS Map use `map-get($map, $key)` function. This function returns the value associated with the given key.
 
 ### Example:
 
-```css
+```scss
 $breakpoints: (
   small: 767px,
   medium: 992px,
   large: 1200px
 );
 
-@media (min-width: #{map-get($breakpoints, $breakpoint)}) {
-    ...
+
+@media (min-width: #{map-get($breakpoints, "medium")}) {
+  // ...
 }
 ```
 
 ### Read More
 
 * [Sass Maps](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Maps)
-* [Sass Interpolation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Interpolation_____)
+* [Sass Interpolation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Interpolation\_\_\_\_\_)
 * [Sass `map-get` function](http://sass-lang.com/documentation/Sass/Script/Functions.html#map_get-instance_method) 
-
