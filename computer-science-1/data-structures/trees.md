@@ -1,6 +1,6 @@
 # Trees
 
-> A tree data structure is defined as a collection of nodes \(starting at the root node\), where each node is a data structure consisting of a value and a list of references to nodes \(the “children”\), with the constraints that there are no duplicate references, and no references point to the root. These references are often referred to as edges. \(Trekhleb & Shoemaker, 2019\)
+> A tree data structure is defined as a collection of nodes (starting at the root node), where each node is a data structure consisting of a value and a list of references to nodes (the “children”), with the constraints that there are no duplicate references, and no references point to the root. These references are often referred to as edges. (Trekhleb & Shoemaker, 2019)
 
 As opposed to Linked Lists, which are linear, Trees can have 0 or more child nodes.
 
@@ -12,12 +12,12 @@ In tree data structure one node can link to many others, which means that trees 
 
 ## Trees components
 
-![](../../.gitbook/assets/img_0141.jpeg)
+![](../../.gitbook/assets/IMG\_0141.jpeg)
 
 * _**root node**_ - the topmost node.
-* _**edge**_ or _**link**_ - it's a connection between nodes. Parent node contains references to its child nodes.
+* _**edge**_ or _**link **_- it's a connection between nodes. Parent node contains references to its child nodes.
 * _**child**_ - any node that has a parent node.
-* _**parent -**_ any node that has a reference/link to another node.
+* _**parent - **_any node that has a reference/link to another node.
 * _**sibling nodes**_ - any group of nodes that are children of the same node.
 * _**leaf**_ - any node that doesn't have any children in the tree.
 
@@ -25,5 +25,4 @@ In tree data structure one node can link to many others, which means that trees 
 
 _References:_
 
-* Trekhleb, O., & Shoemaker, S. \(2019\). JavaScript Algorithms. Retrieved January 13, 2021, from [https://www.newline.co/javascript-algorithms](https://www.newline.co/javascript-algorithms)
-
+* Trekhleb, O., & Shoemaker, S. (2019). JavaScript Algorithms. Retrieved January 13, 2021, from [https://www.newline.co/javascript-algorithms](https://www.newline.co/javascript-algorithms)

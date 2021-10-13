@@ -13,9 +13,8 @@ When using breakpoints you can also pause code execution only when a certain con
 3. Select "**Add conditional breakpoint".**
 4. Enter your condition in the dialog.
 
-![How to add conditional breakpoint](../../.gitbook/assets/conditional-breakpoint.gif)
+![How to add conditional breakpoint](<../../.gitbook/assets/conditional-breakpoint (1).gif>)
 
 #### _Read more:_
 
-* [Chrome Developers \| Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-
+* [Chrome Developers | Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)

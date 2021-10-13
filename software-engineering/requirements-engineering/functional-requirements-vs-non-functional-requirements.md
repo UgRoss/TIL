@@ -9,7 +9,7 @@ description: >-
 
 Software or System requirements are often classified as functional and non-functional requirements
 
-![Functional Requirements vs Non-Functional Requirements](../../.gitbook/assets/requirements-2-.png)
+![Functional Requirements vs Non-Functional Requirements](<../../.gitbook/assets/Requirements (2).png>)
 
 ## What are Functional Requirements?
 
@@ -17,7 +17,7 @@ Software or System requirements are often classified as functional and non-funct
 
 A Functional requirement will describe a particular behavior of function of the system when certain conditions are met, for example: “Send email when a new customer signs up” or “Open a new account”.
 
-![Functional Requiremeent](../../.gitbook/assets/functional-requirements.png)
+![Functional Requiremeent](<../../.gitbook/assets/Functional Requirements.png>)
 
 ### Typical Functional Requirements Examples
 
@@ -54,13 +54,11 @@ Non-Functional Requirements are also [quality attributes](https://en.wikipedia.o
 
 ### Examples
 
-* An email should be sent to a user with a maximum latency of 12 hours. -&gt; _Performance_
-* Each request should be processed within 10 seconds. -&gt; _Performance_
-* Use should not be able to save a password that contains only characters or only numbers. -&gt; _Security_
+* An email should be sent to a user with a maximum latency of 12 hours. -> _Performance_
+* Each request should be processed within 10 seconds. -> _Performance_
+* Use should not be able to save a password that contains only characters or only numbers. -> _Security_
 
 ## Summary
 
 ℹ️ Software or System requirements are classified as _**functional and non-functional requirements**_. Functional requirements define/specify what the system should do and they are mandatory. Non-functional requirements are system quality attributes, they describe how the system should behave and establish constraints of its functionality.
-
-
 

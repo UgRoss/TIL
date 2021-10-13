@@ -2,7 +2,7 @@
 
 ## Description
 
-**Please check my blog post on** [**ugross.dev**](https://ugross.dev/blog/data-structures-linked-list)
+**Please check my blog post on **[**ugross.dev**](https://ugross.dev/blog/data-structures-linked-list)
 
 ## Code
 
@@ -338,6 +338,4 @@ export default class DoublyLinkedList {
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-
-
 

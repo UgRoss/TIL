@@ -9,7 +9,7 @@ description: >-
 
 ## Description
 
-![Stack Data Structure](../../.gitbook/assets/89aa8043-6edc-4bcb-9646-92039f14b0f9_1_105_c.jpeg)
+![Stack Data Structure](../../.gitbook/assets/89AA8043-6EDC-4BCB-9646-92039F14B0F9\_1\_105\_c.jpeg)
 
 A Stack is a linear data structure where elements are stacked on each other. It's like an array, but with a few restrictions:
 
@@ -18,30 +18,30 @@ A Stack is a linear data structure where elements are stacked on each other. It'
 
 The simplest way to think about stack structure is to imagine a deck of cards, or a stack of plates. You put a plate on top of another, and to access a plate in the middle you first need to get plates from the top.
 
-A stack uses **LIFO** \(_last-in-first-out_\) ordering which means that the last pushed item to the stack is processed first \(all previous items will need to wait until newer are processed\).
+A stack uses **LIFO** (_last-in-first-out_) ordering which means that the last pushed item to the stack is processed first (all previous items will need to wait until newer are processed).
 
 ### Base Operations
 
-| Method | Description |
-| :--- | :--- |
-| _`push()`_ | Add item to a stack. |
-| _`pop()`_ | Remove item from a stack. |
+| Method     | Description                     |
+| ---------- | ------------------------------- |
+| _`push()`_ | Add item to a stack.            |
+| _`pop()`_  | Remove item from a stack.       |
 | _`peek()`_ | Get the latest item in a stack. |
 
 ### When to use
 
 * Checking an opening/closing structure. For example, a task to detect balanced usage of opening and closing parentheses, brackets, and quotes. `[]()""([])`
-* Undoing \(backtracking from\) an action.
+* Undoing (backtracking from) an action.
 * Reversing data.
 * and more...
 
 ### Time Complexity
 
 | Operation | Complexity |
-| :--- | :--- |
-| Insertion | O\(1\) |
-| Deletion | O\(1\) |
-| \*Access | O\(n\) |
+| --------- | ---------- |
+| Insertion | O(1)       |
+| Deletion  | O(1)       |
+| \*Access  | O(n)       |
 
 _\*To access some value you need first to pop an element from the top._
 
@@ -86,7 +86,6 @@ export class Stack<T> {
 * [Linked List record](linked-list.md).
 * Code on [Github](https://github.com/UgRoss/data-structures-typescript/tree/main/src/data-structures/Stack).
 * Solve problems using Stack on [LeetCode](https://leetcode.com/tag/stack/).
-* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [Big-O Cheat Sheet](https://www.bigocheatsheet.com)
 
-\_\_
-
+__

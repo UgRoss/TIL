@@ -12,11 +12,9 @@ Use a DOM change breakpoints when you want to pause on the code that changes a D
 2. Right-click on this element.
 3. Hover over **Break on** then select **Subtree modifications**, **Attribute modifications** or **Node removal**.
 
-![How to set DOM change breakpoints](../../.gitbook/assets/screenshot-2021-09-16-at-16.24.36.png)
+![How to set DOM change breakpoints](<../../.gitbook/assets/Screenshot 2021-09-16 at 16.24.36.png>)
 
 #### Read more:
 
-* [Chrome Developers \| Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-
-
+* [Chrome Developers | Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
