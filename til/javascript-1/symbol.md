@@ -31,9 +31,9 @@ const symbol2 = Symbol("Cool Symbol 🚀");
 console.log(symbol === symbol2); // => false
 ```
 
-### Use Case 1: Create "hidden" object props
+#### Use Case 1: Create "hidden" object props
 
-Symbols can be used as object properties. Additionally, symbols are not enumerated (for example, they are ignored in `for ... in` loop and `Object.keys()` method). This allows us to create kind of "hidden" properties that prevent accidantal access. 
+Symbols can be used as object properties. Additionally, symbols are not enumerated (for example, they are ignored in `for ... in` loop and `Object.keys()` method). This allows us to create kind of "hidden" properties that prevent accidantal access.&#x20;
 
 ```javascript
 const id = Symbol('id');
@@ -53,16 +53,16 @@ for (const prop in myObj) {
 // => 'toggled'
 ```
 
-### Use Case 2: System Symbols
+#### Use Case 2: System Symbols
 
-There are many JavaScript symbols which are accessible by `Symbol.*`. For example:
+There are many JavaScript symbols that are accessible by `Symbol.*` :
 
-* [`Symbol.iterator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator)
-* [`Symbol.toPrimitive`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)
-* [`Symbol.hasInstance`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance)
+* [`Symbol.iterator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Symbol/iterator)
+* [`Symbol.toPrimitive`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Symbol/toPrimitive)
+* [`Symbol.hasInstance`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Symbol/hasInstance)
 * etc...
 
-With the help of `Symbol.iterator` we can specify iterator for an object:
+For example, with the help of `Symbol.iterator` we can specify iterator for an object:
 
 ```
 const iterableObject = {
@@ -81,12 +81,20 @@ for (let value of iterableObject) {
 
 ### Symbol.for
 
+There is also global Symbol registry which we can use with the help of `Symbol.for()`. This function takes a string argument and returns Symbol value that is associated with the string you pass. In case there was no Symbol associated with that string, the new one is created and returned.
 
+```
+const idSymbol = Symbol.for('id');
+const idSymbol2 = Symbol.for('id');
 
+idSymbol === idSymbol2 // => true
 
+Symbol.keyFor(idSymbol); // => 'id' 
+idSymbol.toString(); // => 'Symbol(id)'
+```
 
-Links:
+### Links
 
-* [MDN | list of system symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol?retiredLocale=uk#static_properties)
+* [MDN | list of system symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Symbol?retiredLocale=uk#static\_properties)
 * [MDN | yield\* expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield\*?retiredLocale=uk)
-* [MDN | Symbol.for()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for)
+* [MDN | Symbol.for()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Symbol/for)
